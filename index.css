@@ -1,0 +1,146 @@
+.navbar-nav {
+  margin-left: 8px;
+  gap: 20px;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 15px 0;
+}
+
+.nav-link {
+  font-weight: 680;
+  color: black;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+.logo {
+  height: 100px;
+}
+
+.nav-bottom {
+  margin-top: 5px;
+}
+
+.top-signup {
+  position: absolute;
+  top: 44px;
+  right: 150px;
+  background-color: #ff4b00;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  transition: opacity 0.3s ease;
+  height: 34px;
+  width: 74px;
+  border: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 680;
+}
+.signup-btn:hover {
+  opacity: 0.7;
+}
+.discount-banner {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.discount-banner p {
+  margin: 0;
+}
+
+.discount-banner span {
+  color: #ff4b00;
+  font-weight: 700;
+}
+.carousel-item img {
+  height: 60vh;
+  object-fit: cover;
+}
+.carousel-caption {
+  color: whitesmoke;
+}
+.menu-banner h2 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.menu-banner p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.menu-banner {
+  background-color: #ff4b00;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+.order-btn {
+  background-color: #ff4b00;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.order-btn:hover {
+  background-color: #ff4b00;
+  color: white;
+}
+.combo-banner {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+
+  background-color: #ff4b00;
+}
+.combo-banner h2{
+  background-color: rgb(210, 206, 81);
+}
+.combo-banner p{
+ padding-bottom: 20px; 
+}
+.more-btn{
+background-color: #ff4b00;
+color: white;
+}
+
+.footer {
+  background-color: #111;
+  color: white;
+}
+
+.footer-heading{
+  color: #ff4b00;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-links{
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li{
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ff4b00;
+}
+
+.footer-line {
+  border-color: gray;
+}
